@@ -4,7 +4,7 @@ const port = 8000;
 const express = require("express");
 const app = express();
 
-const rotaLivro = require("./rotas/livro");
+const rotaLivro = require("./rotas/livroRota");
 
 
 app.use("/livros", rotaLivro)

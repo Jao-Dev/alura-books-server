@@ -1,7 +1,10 @@
 
+const { getTodosLivros } = require("../servicos/livroService")
+
 function getLivros(req, res){
     try {
-        res.send("Olá mundo da Alura!")
+        const livros = getTodosLivros()
+        res.send(livros)
     } catch (error) {
         res.status(500)
         res.send(error.message)
