@@ -1,0 +1,24 @@
+{
+  "name": "alura-books-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jao-Dev/alura-books-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jao-Dev/alura-books-server/issues"
+  },
+  "homepage": "https://github.com/Jao-Dev/alura-books-server#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "3.1.9"
+  }
+}
